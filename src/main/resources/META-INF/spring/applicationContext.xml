@@ -23,7 +23,7 @@
     <bean id="jpaVendorAdapter"
         class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
         <property name="showSql" value="false" />
-        <property name="database" value="${database}" />
+        <!-- <property name="database" value="${database}" /> -->
     </bean>
 
     <bean
@@ -34,5 +34,5 @@
         <property name="jpaVendorAdapter" ref="jpaVendorAdapter" />
     </bean>
 
-    <jpa:repositories base-package="com.example.mvc.repository" />
+    <jpa:repositories base-package="sa.gosi.mvc.repository" />
 </beans>

@@ -1,10 +1,10 @@
-package com.example.mvc.service;
+package sa.gosi.mvc.service;
 
 import java.util.List;
 
 import org.springframework.data.domain.Page;
 
-import com.example.mvc.entity.Person;
+import sa.gosi.mvc.entity.Person;
 
 public interface PersonService {
     Person insert(Person person);

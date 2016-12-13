@@ -55,7 +55,7 @@
     </listener>
 
     <listener>
-        <listener-class>com.example.mvc.listener.ApplicationInitilizeListener</listener-class>
+        <listener-class>sa.gosi.mvc.listener.ApplicationInitilizeListener</listener-class>
     </listener>
 
     <!-- Processes application requests -->

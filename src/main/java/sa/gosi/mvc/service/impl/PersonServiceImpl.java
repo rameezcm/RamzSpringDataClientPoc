@@ -1,4 +1,4 @@
-package com.example.mvc.service.impl;
+package sa.gosi.mvc.service.impl;
 
 import java.util.List;
 
@@ -8,10 +8,10 @@ import org.apache.commons.collections.IteratorUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.mvc.entity.Person;
-import com.example.mvc.repository.PersonCrudRepo;
-import com.example.mvc.repository.PersonRepository;
-import com.example.mvc.service.PersonService;
+import sa.gosi.mvc.entity.Person;
+import sa.gosi.mvc.repository.PersonCrudRepo;
+import sa.gosi.mvc.repository.PersonRepository;
+import sa.gosi.mvc.service.PersonService;
 
 @Service
 public class PersonServiceImpl implements PersonService {

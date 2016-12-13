@@ -1,4 +1,4 @@
-package com.example.mvc.controller;
+package sa.gosi.mvc.controller;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.example.mvc.entity.Person;
-import com.example.mvc.service.PersonService;
+import sa.gosi.mvc.entity.Person;
+import sa.gosi.mvc.service.PersonService;
 @Controller
 @CrossOrigin(origins ="http://localhost:4200" ,maxAge = 3600)
 @RequestMapping("/person")

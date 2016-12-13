@@ -23,6 +23,6 @@
 
     <tx:annotation-driven />
 
-    <context:component-scan base-package="com.example.mvc" />
+    <context:component-scan base-package="sa.gosi.mvc" />
 
 </beans:beans>

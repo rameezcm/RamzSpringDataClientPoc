@@ -1,8 +1,8 @@
-package com.example.mvc.repository;
+package sa.gosi.mvc.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.example.mvc.entity.Person;
+import sa.gosi.mvc.entity.Person;
 
 public interface PersonCrudRepo extends CrudRepository<Person, Long>{
 
