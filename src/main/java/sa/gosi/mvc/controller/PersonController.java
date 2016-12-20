@@ -38,9 +38,11 @@ public class PersonController {
     @CrossOrigin()
     
     @RequestMapping(value = "/addUser", method = RequestMethod.POST)
-    public @ResponseBody String addUser(@RequestBody Person person) {
+    public @ResponseBody List<Person>  addUser(@RequestBody Person person) {
     	System.out.println("Saving the Person :: "+person.getName());
         personService.insert(person);
-        return "User Added";
+        List<Person> persons = personService.getAll();
+        System.out.println("Geting the List of Persons :: " +persons.size());
+        return persons;
     }
 }
